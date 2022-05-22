@@ -1,0 +1,45 @@
+.hero {
+	background-color: #2f303a;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1600px;
+	height: 600px;
+	background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/phototeam.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.hero__title {
+	color: $white-text-color;
+	font-weight: 900;
+	font-size: 44px;
+	margin: 0px;
+	text-transform: uppercase;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-align: center;
+}
+.hero__button {
+	font-family: Roboto;
+	width: 200px;
+	height: 50px;
+	background-color: $background-accent-color;
+	color: $white-text-color;
+	font-weight: 700;
+	font-size: 16px;
+	cursor: pointer;
+	line-height: 1.87;
+	letter-spacing: 0.06em;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	margin-top: 30px;
+	border: none;
+	&:focus {
+		background: #188ce8;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+		border-radius: 4px;
+	}
+}
