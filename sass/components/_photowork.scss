@@ -1,0 +1,36 @@
+.title {
+	color: $first-text-color;
+	font-weight: 700;
+	font-size: 36px;
+	text-align: center;
+	line-height: 1.16;
+	letter-spacing: 0.03em;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+.list-box__photo {
+	margin-right: 30px;
+	position: relative;
+	width: 370px;
+	height: 294px;
+	&:last-child {
+		margin-right: 0px;
+	}
+}
+.foto-text {
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-align: center;
+	color: $white-text-color;
+	background-color: rgba(47, 48, 58, 0.8);
+	margin: 0px;
+	padding: 27px 0px;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+}
